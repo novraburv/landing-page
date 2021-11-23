@@ -42,12 +42,18 @@ img {
 .hero {
     background-color: #1F2937;
     color: #F9FAF8;
+    height: 500px;
     
     display: flex;
     justify-content: space-between;
     align-items: center;
     
+    gap: 25px;
     padding: 25px 100px;
+}
+
+.hero div {
+    flex: 1;
 }
 
 .hero p {
@@ -57,8 +63,8 @@ img {
 
 .hero__img {
     background-color: #E5E7EB;
-    width: 400px;
-    height: 200px;
+    height: 320px;
+    flex: 1;
 }
 
 .sign-up {
@@ -72,6 +78,7 @@ img {
 
 .info {
     text-align: center;
+    padding: 75px;
 }
 .cards {
     display: flex;
@@ -98,7 +105,7 @@ img {
     background-color: #e5e7eb;
     color: #1f2937;
     
-    padding: 25px 100px;
+    padding: 50px 100px;
 }
 
 .quote__text {
@@ -113,7 +120,7 @@ img {
 }
 
 .cta {
-    padding: 100px 150px;;
+    padding: 75px;
 }
 
 .cta-blu-box {
@@ -122,6 +129,10 @@ img {
     align-items: center;
     background-color: #3882f6;
     border-radius: 5px;
+    color: #f9faf8;
+    width: 750px;
+    margin: auto;
+    padding: 5px;
 }
 
 .sign-up-white-border {
