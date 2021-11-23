@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+.header {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header__nav {
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    gap: 10px;
+}
+
+.header__nav a {
+    color: #E5E7EB;
+    text-decoration: none;
+}
